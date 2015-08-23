@@ -25,7 +25,7 @@
 
 body {
 	font-family: "Source Sans Pro", sans-serif;
-	text-align: right;
+	text-align: center;
 }
 
 /*
@@ -97,7 +97,6 @@ article {
 a.button {
 	background: black;
 	color: white;
-	.right 
     float: right;
     width: 300px;
     border:3px solid #8AC007;
