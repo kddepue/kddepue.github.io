@@ -129,7 +129,7 @@ a.mainNav{
     height: 40px;
     padding: 0px 10px;
     line-height: 40px;
-    float: left;
+    float: center;
     background-color: #1D3E66;
 }
 a.mainNav:hover{
@@ -143,11 +143,11 @@ a.selectedRollover{
     height: 40px;
     padding: 0px 10px;
     line-height: 40px;
-    float: left;
+    float: center;
     background-color: #3D6199;
 }
 .rolloverMenu{
-    float:left;
+    float:center;
     padding: 10px 10px 6px 10px;
     position: absolute;
     z-index: 1000;
