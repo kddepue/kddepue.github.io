@@ -123,15 +123,12 @@ a.button:hover {
     z-index: 1001;
 }
 a.mainNav{
+    background: black;
     color: White;
-    font-weight: bold;
-    font-size: 12px;
-    height: 40px;
+    display: inline-block;
+    text-decoration: none; 
+    transition: background .2s
   
-    padding: 1em 3em;
-    line-height: 40px;
-    float: center;
-    background-color: #1D3E66;
     
 }
 a.mainNav:hover{
