@@ -97,6 +97,27 @@
     <a href="#">Link 4</a>
   </div>
 </div>
+
+<script>
+	
+function rolloverMenu(showHide, menu)
+{
+    var linkObj = document.getElementById('mainLink');
+    var menuObj = document.getElementById(menu);
+    if (showHide == 0)
+    {
+        menuObj.style.display = 'none';
+        linkObj.setAttribute('class', 'mainNav');
+        linkObj.setAttribute('className', 'mainNav');
+    }
+    else
+    {
+        menuObj.style.display = 'block';
+        linkObj.setAttribute('class', 'selectedRollover');
+        linkObj.setAttribute('className', 'selectedRollover');
+    }
+}	
+</script>
 		<nav class="social">
 			<a href="http://twitter.com/">
 				<span class="fa fa-fw fa-twitter"></span>
