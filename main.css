@@ -151,7 +151,7 @@ a.selectedRollover{
 	background: #006699
 	color: white
 	display: in-line block
-	padding: 1em 3em
+	padding: 1em 3em;
 	text-decoration: none;
 
     z-index: 1000;
