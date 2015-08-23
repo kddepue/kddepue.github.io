@@ -128,8 +128,8 @@ a.mainNav{
     font-size: 12px;
     height: 40px;
   
-    padding: 0px 10px;
-    line-height: 100px;
+    padding: 1em 3em;
+    line-height: 40px;
     float: center;
     background-color: #1D3E66;
     
