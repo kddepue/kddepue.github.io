@@ -212,7 +212,7 @@ a.selectedRollover2{
 	padding: 1em 3em;
 	text-decoration: none;
 
-    z-index: 1000;
+    z-index: 998;
     background-color: #3D6199;
     width: 100px;
 }
