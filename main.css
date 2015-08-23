@@ -125,13 +125,13 @@ a.button:hover {
 
 #container{
 	margin: 3em 0;
-    display: inline-block;
+    float: left;
     z-index: 1001;
 }
 a.mainNav{
     background: black;
     color: White;
-    display: inline-block;
+    float: left;
     padding: 1em 3em;
     text-decoration: none; 
     
@@ -147,7 +147,7 @@ a.selectedRollover{
     background: #006699;
     color: White;
     	color: white;
-	display: inline-block;
+	float: left;
 	padding: 1em 3em;
 	text-decoration: none;
 	transition: background .2s;
@@ -157,9 +157,9 @@ a.selectedRollover{
     
 }
 .rolloverMenu{
-	background: #006699
-	color: white
-	display: in-line block
+	background: #006699;
+	color: white;
+float: left;
 	padding: 1em 3em;
 	text-decoration: none;
 
