@@ -148,15 +148,18 @@ a.selectedRollover{
     
 }
 .rolloverMenu{
-    float:center;
-    padding: 10px 10px 6px 10px;
-    position: absolute;
+	background: #006699
+	color: white
+	display: in-line block
+	padding: 1em 3em
+	text-decoration: none;
+
     z-index: 1000;
     background-color: #3D6199;
     width: 100px;
 }
 .rolloverMenu#mainMenu{
-    top: 80px;
+    top: 60px;
 }
 .rolloverMenu a{
     color: White;
