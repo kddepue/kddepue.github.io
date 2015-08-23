@@ -126,9 +126,11 @@ a.mainNav{
     background: black;
     color: White;
     display: inline-block;
-    text-decoration: none; 
-    transition: background .2s;
     padding: 1em 3em;
+    text-decoration: none; 
+    
+    transition: background .2s;
+
   
     
 }
