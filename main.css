@@ -172,7 +172,59 @@ a.selectedRollover{
     line-height: 20px;
 }
 
+#container2{
+	margin: 3em 0;
+    display: inline-block;
+    z-index: 1001;
+}
+a.mainNav2{
+    background: black;
+    color: White;
+    display: inline-block;
+    padding: 1em 3em;
+    text-decoration: none; 
+    
+    transition: background .2s;
 
+  
+    
+}
+a.mainNav2:hover{
+	background: #006699;
+}
+a.selectedRollover2{
+    background: #006699;
+    color: White;
+    	color: white;
+	display: inline-block;
+	padding: 1em 3em;
+	text-decoration: none;
+	transition: background .2s;
+   
+    
+    
+    
+}
+.rolloverMenu2{
+	background: #006699
+	color: white
+	display: in-line block
+	padding: 1em 3em;
+	text-decoration: none;
+
+    z-index: 1000;
+    background-color: #3D6199;
+    width: 100px;
+}
+.rolloverMenu2#mainMenu{
+    top: 60px;
+}
+.rolloverMenu2 a{
+    color: White;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+}
 
 
 .social {
