@@ -132,18 +132,20 @@ a.mainNav{
     
 }
 a.mainNav:hover{
-    background-color: #3D6199;
-    color: #AAAAAA;
+	background: #006699;
 }
 a.selectedRollover{
+    background: #006699;
     color: White;
-    font-weight: bold;
-    font-size: 12px;
-    height: 40px;
-    padding: 0px 10px;
-    line-height: 40px;
-    float: center;
-    background-color: #3D6199;
+    	color: white;
+	display: inline-block;
+	padding: 1em 3em;
+	text-decoration: none;
+	transition: background .2s;
+   
+    
+    
+    
 }
 .rolloverMenu{
     float:center;
