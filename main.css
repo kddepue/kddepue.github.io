@@ -119,6 +119,7 @@ a.button:hover {
 */
 
 #container{
+	margin: 3em 0;
     display: inline-block;
     z-index: 1001;
 }
